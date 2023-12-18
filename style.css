@@ -1,18 +1,17 @@
-*{
-    border:solid
-}
 
-   
-p{
- color: aqua;
+h1 {
+    color: brown;
 }
-
-h1{
- color:red
+* {
+    border: solid;
 }
-
 .header{
-    background-color: bisque;
+ background-color:cadetblue;  
+ display: flex; 
+ justify-content: space-between;
+}
+.grid{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
